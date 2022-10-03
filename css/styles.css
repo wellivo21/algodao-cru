@@ -46,7 +46,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.page-header h1 {
+h1 {
   font-size: 3.6rem;
   font-weight: lighter;
 }
@@ -68,7 +68,7 @@ html {
   font-size: 6.2rem;
   padding-block: 3.2rem;
 }
-.intro-section .promotion {
+.promotion {
   font-size: 3.6rem;
   color: var(--primary-color);
   font-weight: bold;
@@ -78,14 +78,14 @@ html {
   flex-direction: column;
   gap: .8rem;
 }
-.intro-section .research {
+.research {
   font-size: 1.8rem;
   display: block;
   padding-inline: 12.8rem;
   margin-block-end: 3.2rem;
   font-weight: 300;
 }
-.intro-section .what-course {
+.what-course {
   font-size: 1.8rem;
   font-weight: bold;
   padding-inline: 16rem;
@@ -181,6 +181,7 @@ html {
   height: 5rem;
   color: #fff;
   margin-block: 1.2rem;
+  padding: .4rem;
   cursor: pointer;
 }
 .post-form {

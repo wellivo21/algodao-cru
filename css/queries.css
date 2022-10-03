@@ -1,0 +1,93 @@
+@media screen and (max-width: 1000px) {
+  .form-section {
+    padding-inline: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form-section {
+    padding-inline: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .research {
+    padding-inline: 0;
+  }
+  .what-course {
+    padding-inline: 6.4rem;
+  }
+  .form-section {
+    padding-inline: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+  }
+  .sub-form {
+    grid-row: 1/3;
+  }
+  .info-list-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .info-list-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-block-start: -1.6rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .promotion {
+    font-size: 3rem;
+  }
+  .research, .what-course {
+    font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width:492px) {
+  .form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .what-course {
+    padding-block-end: 4.8rem;
+  }
+  .info-list-right {
+    margin-block-start: 0;
+  }
+  .sub-form {
+    margin-block-start: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  .intro-section h2 {
+    font-size: 3.2rem;
+  }
+  .promotion {
+    font-size: 2.4rem;
+  }
+  .research, .what-course {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .what-course {
+    padding-inline: 0;
+  }
+}
