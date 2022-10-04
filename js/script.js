@@ -25,7 +25,6 @@ const formData = () => {
         // getting info from inputs with the required attr
         formData[input.name] = input.value;
       }
-      // getting checked-radio-btn data. This part has no meaning at all, I just wanted to to it :)
       const checkedRadio = document.querySelector(
         "input[type='radio']:checked"
       );
