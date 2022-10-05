@@ -210,3 +210,10 @@ footer p {
   font-size: 1rem;
   color: #fff;
 }
+
+/* ///////////////////////////////// */
+/* FOCUS OUTLINE */
+
+*:focus {
+  outline: 0.3rem solid var(--primary-color);
+}
