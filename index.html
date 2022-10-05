@@ -1,140 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Algodão Cru</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Venha votar em qual curso você deseja ver na Black Friday para aproveitar a única promoção do ano. Compre cursos de costura em nossa super promoção da Black Friday, dia 23 de novembro!"
+    />
 
-  <!-- CSS links -->
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/queries.css">
-  <!-- JS script -->
-  <script defer src="./js/script.js"></script>
-  <!-- Font Awesome script -->
-  <script src="https://kit.fontawesome.com/43727fc40b.js" crossorigin="anonymous"></script>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  
-</head>
-<body>
-  <header class=page-header>
-    <h1>
-      <span class='algodao'>algodão</span>cru
-    </h1>
-  </header>
+    <title>Algodão Cru</title>
 
-  <section class='intro-section'>
-    <h2>BLACK FRIDAY 😱</h2>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <!-- JS script -->
+    <script defer src="./js/script.js"></script>
+    <!-- Font Awesome script -->
+    <script
+      src="https://kit.fontawesome.com/43727fc40b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1><span class="algodao">algodão</span>cru</h1>
+    </header>
 
-    <div class="promotion">
-      <p>Fique ligada (o) na única promoção que faço no ano!</p>
-      <p>Vai valer a pena esperar por isso!</p>
-    </div>
+    <section class="intro-section">
+      <h2>BLACK FRIDAY 😱</h2>
 
-    <small class='research'>
-      Estou fazendo uma <strong>pesquisa</strong> para ver qual o curso devo colocar em promoção no dia 23 de novembro na <strong>Black Friday</strong>. Ajude-me a escolher!
-    </small>
+      <div class="promotion">
+        <p>Fique ligada (o) na única promoção que faço no ano!</p>
+        <p>Vai valer a pena esperar por isso!</p>
+      </div>
 
-    <p class='what-course'>Qual o curso você quer ver na Black Friday para aproveitar a única promoção do ano?</p>
-  </section>
-
-  <section class="form-section">
-
-    <ul class='info-list-left'>
-      <li class="info-list-item">
-        <i class="fa-solid fa-bag-shopping list-icon"></i>
-        <div class="details">
-          <p class='list-title'>Como modelar e confeccionar saias</p>
-          <p class='list-text'>Para começar a modelar saias sob medida, interpretar e costurar lindos modelos. Nesse curso, você vai aprender a se aprofudnar em técnicas de modelagem e costura</p>
-        </div>
-      </li>
-      <li class="info-list-item">
-        <i class="fa-solid fa-bag-shopping list-icon"></i>
-        <div class="details">
-          <p class='list-title'>Acabamentos Primorosos e Técnicas de Costura</p>
-          <p class='list-text'>Aprenda técnicas de costura para aumetnar o seu repertório e conhecimentos para finalizar suas peças com acabamentos impecáveis</p>
-        </div>
-      </li>
-    </ul>
-
-    <ul class="info-list info-list-right">
-      <li class="info-list-item">
-        <i class="fa-solid fa-bag-shopping list-icon"></i>
-        <div class="details">
-          <p class='list-title'>Introdução ao método de Corte Centesimal</p>
-          <p class='list-text'>O tradicional método que faz parte da história da moda Brasileira. Crie moldes básicos com caimentos impecáveis sem contas matemáticas</p>
-        </div>
-      </li>
-      <li class="info-list info-list-item">
-        <i class="fa-solid fa-bag-shopping list-icon"></i>
-        <div class="details">
-          <p class='list-title'>Workshop de Jogos Americanos</p>
-          <p class='list-text'>Costure lindos Jogos Americanos e aprenda técncias que podem ser combinadas com elegância e criatividade</p>
-        </div>
-      </li>
-    </ul>
-
-    <form class="sub-form">
-      <small class='pre-form'>Preencha:</small>
-
-      <label>
-        <span class='form-label'>Nome</span>
-        <input type="text" name='nome' required>
-      </label>
-
-      <label>
-        <span class='form-label'>Email</span>
-        <input type="email" name='email' required>
-      </label>
-
-      <label>
-        <span class='form-label'>Telefone</span>
-        <input type="tel" name='tel' required>
-      </label>
-
-      <fieldset>
-        <legend>Escolha um único curso:</legend>
-
-        <div class='form-choice'>
-          <input type="radio" name='course' id='choice1' value='how-to-model-and-make-skirts' checked>
-          <label for="choice1">Como Modelar e Confeccionar Saias</label>
-        </div>
-
-        <div class='form-choice'>
-          <input type="radio" name='course' id='choice2' value='exquisite-finishes-and-sewing-techniques'>
-          <label for="choice2">Acabamentos Primorosos e Técnicas de Costura</label>
-        </div>
-
-        <div class='form-choice'>
-          <input type="radio" name='course' id='choice3' value='introduction-to-the-centesimal-cutting-method'>
-          <label for="choice3">Introdução ao Método de Corte Centesimal</label>
-        </div>
-
-        <div class='form-choice'>
-          <input type="radio" name='course' id='choice4' value='american-games-workshop'>
-          <label for="choice4">Workshop de Jogos Americanos</label>
-        </div>
-      </fieldset>
-
-      <label>
-        <span class='form-label'>10 + 5 = ?</span>
-        <input type="number" name='validador' required>
-      </label>
-
-      <button type='submit' class='submit-btn'>ESCOLHER ESSE CURSO</button>
-
-      <small class='post-form'>
-        Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SMS
+      <small class="research">
+        Estou fazendo uma <strong>pesquisa</strong> para ver qual o curso devo
+        colocar em promoção no dia 23 de novembro na
+        <strong>Black Friday</strong>. Ajude-me a escolher!
       </small>
-    </form>
-  </section>
 
-  <footer>
-    <p>Feito com &lt;3 para te ajudar a crescer: Algodão Cru</p>
-  </footer>
+      <p class="what-course">
+        Qual o curso você quer ver na Black Friday para aproveitar a única
+        promoção do ano?
+      </p>
+    </section>
 
-</body>
+    <section class="form-section">
+      <ul class="info-list-left">
+        <li class="info-list-item">
+          <i class="fa-solid fa-bag-shopping list-icon"></i>
+          <div class="details">
+            <p class="list-title">Como modelar e confeccionar saias</p>
+            <p class="list-text">
+              Para começar a modelar saias sob medida, interpretar e costurar
+              lindos modelos. Nesse curso, você vai aprender a se aprofudnar em
+              técnicas de modelagem e costura
+            </p>
+          </div>
+        </li>
+        <li class="info-list-item">
+          <i class="fa-solid fa-bag-shopping list-icon"></i>
+          <div class="details">
+            <p class="list-title">
+              Acabamentos Primorosos e Técnicas de Costura
+            </p>
+            <p class="list-text">
+              Aprenda técnicas de costura para aumetnar o seu repertório e
+              conhecimentos para finalizar suas peças com acabamentos impecáveis
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="info-list info-list-right">
+        <li class="info-list-item">
+          <i class="fa-solid fa-bag-shopping list-icon"></i>
+          <div class="details">
+            <p class="list-title">Introdução ao método de Corte Centesimal</p>
+            <p class="list-text">
+              O tradicional método que faz parte da história da moda Brasileira.
+              Crie moldes básicos com caimentos impecáveis sem contas
+              matemáticas
+            </p>
+          </div>
+        </li>
+        <li class="info-list info-list-item">
+          <i class="fa-solid fa-bag-shopping list-icon"></i>
+          <div class="details">
+            <p class="list-title">Workshop de Jogos Americanos</p>
+            <p class="list-text">
+              Costure lindos Jogos Americanos e aprenda técncias que podem ser
+              combinadas com elegância e criatividade
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <form class="sub-form">
+        <small class="pre-form">Preencha:</small>
+
+        <label>
+          <span class="form-label">Nome</span>
+          <input type="text" name="nome" required />
+        </label>
+
+        <label>
+          <span class="form-label">Email</span>
+          <input type="email" name="email" required />
+        </label>
+
+        <label>
+          <span class="form-label">Telefone</span>
+          <input type="tel" name="tel" required />
+        </label>
+
+        <fieldset>
+          <legend>Escolha um único curso:</legend>
+
+          <div class="form-choice">
+            <input
+              type="radio"
+              name="course"
+              id="choice1"
+              value="how-to-model-and-make-skirts"
+              checked
+            />
+            <label for="choice1">Como Modelar e Confeccionar Saias</label>
+          </div>
+
+          <div class="form-choice">
+            <input
+              type="radio"
+              name="course"
+              id="choice2"
+              value="exquisite-finishes-and-sewing-techniques"
+            />
+            <label for="choice2"
+              >Acabamentos Primorosos e Técnicas de Costura</label
+            >
+          </div>
+
+          <div class="form-choice">
+            <input
+              type="radio"
+              name="course"
+              id="choice3"
+              value="introduction-to-the-centesimal-cutting-method"
+            />
+            <label for="choice3"
+              >Introdução ao Método de Corte Centesimal</label
+            >
+          </div>
+
+          <div class="form-choice">
+            <input
+              type="radio"
+              name="course"
+              id="choice4"
+              value="american-games-workshop"
+            />
+            <label for="choice4">Workshop de Jogos Americanos</label>
+          </div>
+        </fieldset>
+
+        <label>
+          <span class="form-label">10 + 5 = ?</span>
+          <input type="number" name="validador" required />
+        </label>
+
+        <button type="submit" class="submit-btn">ESCOLHER ESSE CURSO</button>
+
+        <small class="post-form">
+          Prometemos não utilizar suas informações de contato para enviar
+          qualquer tipo de SMS
+        </small>
+      </form>
+    </section>
+
+    <footer>
+      <p>Feito com &lt;3 para te ajudar a crescer: Algodão Cru</p>
+    </footer>
+  </body>
 </html>
